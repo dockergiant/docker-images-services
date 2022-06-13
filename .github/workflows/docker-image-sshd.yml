@@ -1,16 +1,16 @@
-name: Docker Image Dnsmasq
+name: Docker Image Sshd
 on:
   schedule:
     - cron: "0 6 1 * *" # 6 AM UTC on 1st day of month
   push:
     paths:
       - .trigger
-      - dnsmasq/**
-      - .github/workflows/*dnsmasq*
+      - sshd/**
+      - .github/workflows/*sshd*
 
 jobs:
-  dnsmasq:
-    name: Dnsmasq with WebUI
+  sshd:
+    name: Docker sshd
     runs-on: ubuntu-latest
     steps:
       -
@@ -32,8 +32,8 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v2
         with:
-          context: ./dnsmasq
+          context: .
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            dockergiantdeck/dnsmasq:latest
+            dockergiantdeck/sshd:latest

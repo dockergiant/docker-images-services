@@ -1,4 +1,4 @@
-# docker-dnsmasq-multi-arch
+# docker-dnsmasq
 
 ![Docker Image Architecture](https://img.shields.io/badge/architecture-arm64%20%7C%20amd64-success)
 ![License](https://img.shields.io/github/license/dockergiant/docker-images-services)
