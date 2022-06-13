@@ -1,0 +1,3 @@
+[submodule "alpine-chrome"]
+	path = alpine-chrome
+	url = git@github.com:dockergiant/alpine-chrome.git
