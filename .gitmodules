@@ -1,0 +1,3 @@
+[submodule "MailHog"]
+	path = MailHog
+	url = git@github.com:dockergiant/MailHog.git
