@@ -1,6 +1,6 @@
 NAME := sshd
 TAG := latest
-IMAGE_NAME := dockergiantdeck/$(NAME)
+IMAGE_NAME := rollupdev/$(NAME)
 
 .PHONY: help build push clean
 

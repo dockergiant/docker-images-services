@@ -7,7 +7,7 @@
 
 ## Available Packages
 
-Add the registry & user prefix of `hub.docker.com/dockergiantdeck/` to the below package for usage. The below package is available for both `linux/arm64` and `linux/amd64` architectures.
+Add the registry & user prefix of `hub.docker.com/rollupdev/` to the below package for usage. The below package is available for both `linux/arm64` and `linux/amd64` architectures.
 
 | Service | Package & Tag |
 |---|---|
