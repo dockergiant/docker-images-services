@@ -25,7 +25,7 @@ RUN cd /build/icu-57.1/source \
  && make install
 
 # get the phantomjs source
-RUN git clone --depth 1 --shallow-submodules --recursive --branch 2.1.1 git://github.com/ariya/phantomjs.git
+RUN git clone --depth 1 --shallow-submodules --recursive --branch 2.1.1 https://github.com/ariya/phantomjs
 WORKDIR /build/phantomjs
 
 # build the binary
